@@ -6,9 +6,9 @@ export default function Fotter() {
         <section class="bg-rose-250 dark:bg-gray-900">
         <div class="container px-6 py-6 mx-auto text-center">
 
-        <h3 class="text-2xl font-semibold text-white lg:text-3xl dark:text-white">Ainda tem duvidas?</h3>
+        <h3 class="font-sf-new-republic text-xl font-medium text-white lg:text-3xl dark:text-white">Ainda tem duvidas?</h3>
 
-                <div class="grid grid-cols-1 gap-8 mt-8 md:mt-16 md:grid-cols-2 xl:grid-cols-3">
+                <div class="font-roboto grid grid-cols-1 gap-8 mt-8 md:mt-16 md:grid-cols-2 xl:grid-cols-3">
                     
                     <div class="flex flex-col px-3 justify-center items-center dark:bg-gray-900">
                         <svg name="email" width="35" height="28" viewBox="0 0 45 38" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -64,7 +64,7 @@ export default function Fotter() {
            
         </div>
     </div>
-    <div class=" text-center container px-6 py-8 mx-auto mb-8">
+    <div class="font-roboto text-center container px-6 py-8 mx-auto mb-8">
     <hr class="my-4 border-rose-300 dark:border-gray-200" />
             
         <h5 class="text-md font-semibold text-white capitalize lg:text-xl dark:text-white">Newsletter</h5>
@@ -86,9 +86,8 @@ export default function Fotter() {
 
       <div className="mx-auto bg-white">
           <nav className="flex justify-center items-center">
-          <Image className="relative bottom-10"
-           src="icons/Group.svg" alt="Logo da Ong TinieBird Cats" width={80} height={80} />
-            <div className="font-extrabold mx-4" style={{fontSize: '22px'}}>
+            <Image className="relative bottom-10"src="/icons/logo.svg" alt="Logo" width={75} height={75} />
+            <div className="font-sf-new-republic font-extrabold mx-4" style={{fontSize: '22px'}}>
                 <p>
                 Ong 
                 <span className="text-rose-250 ml-1">Tinie</span>
@@ -97,7 +96,7 @@ export default function Fotter() {
                 </p>
                
             </div>
-            <div className="flex items-center ml-48">
+            <div className="font-roboto flex items-center ml-48">
                 <ul className="flex ml-10 space-x-4 font-medium">
                     <li><a href="#" className="hover:text-blue-350">Home</a></li>
                     <li><a href="#" className="hover:text-blue-350">Sobre</a></li>

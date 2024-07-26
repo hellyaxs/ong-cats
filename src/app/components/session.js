@@ -1,4 +1,4 @@
-
+import Image from "next/image";
 
 export default function Sessao() {
 
@@ -16,7 +16,11 @@ export default function Sessao() {
             <div class="flex justify-end text-end">
            <p className="mr-3 mt-2" ><strong>+1.2</strong> mil gatinhos<br/> adotados em 2024</p> 
                 <div class="h-16 w-16 rounded-full bg-rose-250 flex items-center justify-center">
-                    
+                    <Image src="/cat-look.png"
+                    width={30}
+                    height={30}
+                    alt="Gatinho"
+                    />
                 </div>
             </div>
             <div></div>

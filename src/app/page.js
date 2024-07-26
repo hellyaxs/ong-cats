@@ -18,7 +18,8 @@ export default function Home() {
    <header className="flex flex-col items-center font-roboto">
    <div className="container mx-auto py-4">
           <nav className="flex justify-center items-center">
-          <Image src="icons/Group.svg" alt="Logo da Ong TinieBird Cats" width={60} height={60} />
+            
+          <Image src="icons/logo.svg" alt="Logo da Ong TinieBird Cats" width={60} height={60} />
             <div className="font-sf-new-republic font-extrabold mx-4" style={{fontSize: '22px'}}>
             <p>Ong</p>
                <span className="text-rose-250">Tinie</span>

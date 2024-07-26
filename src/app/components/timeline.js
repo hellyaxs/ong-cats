@@ -4,11 +4,11 @@ export default function Timeline() {
 
     return (    
     <session>
-        <div class="px-6 py-8 mx-auto text-center">
-        <h2 class="font-sf-new-republic mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-black">
-            Conheça a ONG TinieBird Cats</h2>
-        <p class="font-sf-new-republic mb-6 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-96 dark:text-gray-400">
-        Existem muitos gatos a espera de um lar e com muito amor para oferecer. Nós fazemos essa ponte para que você adote um amigo e faça a diferença na vida de um animal carente.
+        <div class="px-3 py-8 mx-auto text-center">
+        <h3 class="font-sf-new-republic mb-4 font-medium leading-none tracking-tight text-gray-900 md:text-3xl lg:text-4xl dark:text-black">
+            Conheça a ONG TinieBird Cats</h3>
+        <p class="font-sf-new-republic mb-6 text-xs text-gray-500 lg:text-xl sm:px-16 xl:px-64 dark:text-gray-400">
+        Existem muitos gatos a espera de um lar e com muito amor para oferecer. Nós fazemos essa ponte <br /> para que você adote um amigo e faça a diferença na vida de um animal carente.
         </p>
        
         </div>
