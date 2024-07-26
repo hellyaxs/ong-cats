@@ -6,7 +6,7 @@ export default function Sessao() {
     <section class="bg-white ">
         <div class="container px-6 py-16 mx-auto text-center">
         <div class="max-w-lg mx-auto">
-        <button class="px-11 py-2 font-medium tracking-wide text-white  transition-colors duration-300 transform bg-rose-400 rounded-lg hover:bg-rose-500 focus:outline-none focus:ring focus:ring-rose-400 focus:ring-opacity-80">
+        <button class="px-11 py-2 font-medium tracking-wide text-white  transition-colors duration-300 transform bg-rose-250 rounded-lg hover:bg-rose-500 focus:outline-none focus:ring focus:ring-rose-250 focus:ring-opacity-80">
             Apoie e faça a sua parte
         </button>
             <h1 class="pt-4 text-3xl font-semibold text-gray-800  lg:text-4xl">Apoie e colabore para que mais gatinhos encontre uma familia</h1>
@@ -15,13 +15,13 @@ export default function Sessao() {
         <div class="grid grid-cols-1 gap-3 lg:grid-cols-3 lg:gap-5 my-9">
             <div class="flex justify-end text-end">
            <p className="mr-3 mt-2" ><strong>+1.2</strong> mil gatinhos<br/> adotados em 2024</p> 
-                <div class="h-16 w-16 rounded-full bg-rose-300 flex items-center justify-center">
+                <div class="h-16 w-16 rounded-full bg-rose-250 flex items-center justify-center">
                     
                 </div>
             </div>
             <div></div>
             <div class="flex text-start">
-                <div class="h-16 w-16 rounded-full bg-rose-300 flex items-center justify-center">
+                <div class="h-16 w-16 rounded-full bg-rose-250 flex items-center justify-center">
                     <svg width="33" height="35" viewBox="0 0 33 35" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M18.4699 0.289313C17.5203 0.835326 16.998 2.8532 17.3778 4.5862C17.9476 7.29253 20.464 7.57741 21.5323 5.03726C21.8172 4.37254 21.8172 4.01645 21.5798 3.01938C20.9863 0.431751 19.8705 -0.541577 18.4699 0.289313Z" fill="white"/>
                         <path d="M12.986 1.47629C11.4904 2.33092 11.5379 6.81773 13.0097 7.60114C13.9118 8.07593 14.719 7.90975 15.5736 7.05512C16.1671 6.46163 16.3808 6.03432 16.3808 5.46456C16.3808 4.42002 15.6686 2.2597 15.1463 1.68995C14.6715 1.16768 13.6744 1.07272 12.986 1.47629Z" fill="white"/>
@@ -40,7 +40,7 @@ export default function Sessao() {
         
             <div className="flex items-center justify-center rounded-ful">
             <div class="h-96 w-96 flex items-center justify-center rounded-full bg-rose-100">
-                <div class="flex flex-col text-white items-center pt-14 h-72 w-72 rounded-full bg-rose-300">
+                <div class="flex flex-col text-white items-center pt-14 h-72 w-72 rounded-full bg-rose-250">
                 
                 <svg width="80" height="80" viewBox="0 0 112 132" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g clip-path="url(#clip0_248_103)">
@@ -81,7 +81,7 @@ export default function Sessao() {
             <div class="flex justify-end text-end">
             <p className="mr-3 mt-2"><strong>+80 </strong>toneladas de ração <br/>
              doadas desde 2023</p>
-             <div class="h-16 w-16 rounded-full bg-rose-300 justify-center items-center flex">
+             <div class="h-16 w-16 rounded-full bg-rose-250 justify-center items-center flex">
              <svg width="23" height="30" viewBox="0 0 23 30" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M4.16111 0.0805497C3.14685 0.392627 2.19762 1.28985 1.96356 2.13506C1.88554 2.40813 1.82053 3.05829 1.82053 3.56541V4.51465H11.3909H20.9613L20.9093 3.37036C20.8312 1.79697 20.3501 0.938762 19.1798 0.314608C18.6727 0.0285368 18.5687 0.0285368 11.5729 0.0025301C7.67198 -0.0104733 4.34315 0.0285368 4.16111 0.0805497Z" fill="white"/>
                         <path d="M0.754259 8.97473L7.204e-05 11.6144V19.2213C7.204e-05 27.6864 -0.0259344 27.3613 0.910298 28.2715C1.87254 29.2077 1.24838 29.1557 11.3779 29.1557H20.4801L21.0133 28.8697C21.7024 28.5056 22.4046 27.6864 22.5997 27.0232C22.7167 26.6721 22.7557 24.3575 22.7557 19.0652L22.7427 11.6014L22.0015 9.00074L21.2473 6.40009L11.3779 6.36108L1.49544 6.33508L0.754259 8.97473ZM13.0683 8.8707C17.1383 9.72892 20.025 13.7469 19.5049 17.8559C19.2578 19.7544 18.5557 21.1978 17.1643 22.6021C15.5259 24.2535 13.6405 25.0597 11.3779 25.0597C7.65897 25.0597 4.5382 22.6801 3.43292 19.0002C3.10784 17.96 3.12085 15.7884 3.43292 14.7222C4.09609 12.4986 5.70849 10.5741 7.67197 9.59888C9.47942 8.71467 11.2088 8.48061 13.0683 8.8707Z" fill="white"/>
@@ -95,7 +95,7 @@ export default function Sessao() {
             </div>
             <div/>
             <div class="flex text-start">
-                <div class="flex h-16 w-16 rounded-full bg-rose-300 items-center justify-center">
+                <div class="flex h-16 w-16 rounded-full bg-rose-250 items-center justify-center">
                     <svg width="30" height="30" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M10.5339 1.1542L9.7699 2.30839L11.0216 4.68178C11.7044 5.98228 13.7039 9.73745 15.4433 13.0212L18.6132 18.9709L19.0197 18.5808C19.2472 18.3695 19.7024 18.0769 20.0438 17.9306L20.6453 17.6867L20.3039 16.9877C19.9788 16.3537 11.363 0.0812931 11.3142 0.0162678C11.298 1.14441e-05 10.9566 0.520208 10.5339 1.1542ZM17.0689 12.566C17.0689 13.1025 17.0364 13.135 16.4999 13.135C15.9635 13.135 15.931 13.1025 15.931 12.566C15.931 12.0296 15.9635 11.9971 16.4999 11.9971C17.0364 11.9971 17.0689 12.0296 17.0689 12.566Z" fill="white"/>
                         <path d="M21.0517 1.21913C20.6941 1.88564 20.3852 2.50337 20.3527 2.58465C20.3202 2.66593 20.9054 2.73096 21.6695 2.73096C22.6936 2.73096 23.0675 2.66593 23.1325 2.50337C23.1813 2.38958 22.8724 1.77184 22.466 1.13785L21.702 -7.7486e-05L21.0517 1.21913Z" fill="white"/>
@@ -134,26 +134,7 @@ export default function Sessao() {
         </button>
         </div>
 
-        {/* <div class="max-w-screen-xl mx-auto mt-20">
-            <div class="grid grid-cols-2 gap-8 md:grid-cols-6 lg:grid-cols-5">
-                <div class="flex items-center justify-center col-span-1 md:col-span-2 lg:col-span-1">
-                </div>
-
-                <div class="flex items-center justify-center col-span-1 md:col-span-2 lg:col-span-1">
-                </div>
-
-                <div class="flex items-center justify-center col-span-1 md:col-span-2 lg:col-span-1">
-                </div>
-
-                <div class="flex items-center justify-center col-span-1 md:col-span-3 lg:col-span-1">
-                    <svg class="h-5 mt-1 text-gray-500 fill-current dark:text-gray-300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 278.7 36.3"><g><path class="st0" d="M238.1 14.4v21.9h7V21.7h25.6v14.6h7V14.4h-39.6m6.2-7.1h27c3.8-.7 6.5-4.1 7.3-7.3H237c.8 3.2 3.6 6.5 7.3 7.3m-27.5 29c3.5-1.5 5.4-4.1 6.2-7.1h-31.5V.1h-7.1v36.2h32.4M131.9 7.2h25c3.8-1.1 6.9-4 7.7-7.1H125v21.4h32.4V29H132c-4 1.1-7.4 3.8-9.1 7.3h41.5V14.4H132l-.1-7.2m-61.6.1h27c3.8-.7 6.6-4.1 7.3-7.3H62.9c.8 3.2 3.6 6.5 7.4 7.3m0 14.3h27c3.8-.7 6.6-4.1 7.3-7.3H62.9c.8 3.2 3.6 6.5 7.4 7.3m0 14.7h27c3.8-.7 6.6-4.1 7.3-7.3H62.9c.8 3.2 3.6 6.6 7.4 7.3M0 .1c.8 3.2 3.6 6.4 7.3 7.2h11.4l.6.2v28.7h7.1V7.5l.6-.2h11.4c3.8-1 6.5-4 7.3-7.2V0L0 .1"></path></g></svg>
-                </div>
-
-                <div class="flex items-center justify-center col-span-2 md:col-span-3 lg:col-span-1">
-                    <svg class="h-8 text-gray-500 fill-current dark:text-gray-300" viewBox="0 0 2270 546" xmlns="http://www.w3.org/2000/svg"><g fill-rule="evenodd"><path d="M888.413 394.397l-31.127 144.717h-71.593L903.977 14.642h84.81l111.28 524.472h-72.371l-30.35-144.717H888.413zm100.373-58.364l-24.124-125.3c-7.003-35.797-14.007-82.463-19.441-119.828h-3.126c-5.434 38.13-13.242 86.365-20.22 119.827l-24.902 125.301h91.813zM1373.34.648v441.205c0 28.806 1.556 70.828 3.1 97.274h-63.02l-4.67-45.9h-2.334c-12.451 26.445-41.244 52.138-79.362 52.138-70.037 0-112.837-76.275-112.837-193.755 0-133.848 56.794-196.881 116.728-196.881 30.336 0 54.46 14.02 67.689 42.8h1.556V.648h73.15zm-73.163 304.258c0-6.991 0-15.551-.778-23.359-3.89-34.227-23.345-63.798-49.79-63.798-45.927 0-61.477 63.798-61.477 133.848 0 77.818 20.232 132.278 59.142 132.278 16.342 0 38.118-8.56 50.569-53.681 1.556-6.226 2.334-15.577 2.334-24.111V304.906zm247.399 240.446c-75.471 0-129.957-64.59-129.957-194.52 0-137.752 64.576-196.116 133.835-196.116 74.705 0 128.387 66.924 128.387 194.546 0 150.19-73.927 196.09-131.5 196.09h-.765zm2.321-57.573c45.122 0 55.251-80.153 55.251-137.726 0-56.82-10.116-137.739-56.794-137.739-48.26 0-57.586 80.919-57.586 137.74 0 63.02 10.895 137.725 58.364 137.725h.765zM1723.938.648h73.137V203.74h1.556c19.455-34.227 45.913-49.025 79.375-49.025 64.577 0 105.055 73.15 105.055 189.099 0 135.391-55.25 201.537-117.506 201.537-37.353 0-58.364-20.246-74.719-53.708h-3.086l-3.904 47.47h-63.02c1.556-25.668 3.112-68.468 3.112-97.274V.648zm73.137 404.618c0 8.586.778 17.146 3.113 23.358 11.66 45.926 34.24 55.251 49.012 55.251 43.579 0 59.92-57.572 59.92-135.391 0-72.371-17.106-130.735-60.698-130.735-24.124 0-43.578 28.793-49.025 56.03-1.557 7.781-2.335 17.91-2.335 25.68v105.807h.013zm293.92-40.453c.779 97.273 42.788 121.384 87.145 121.384 26.458 0 49.025-6.213 65.367-14.007l10.895 52.916c-22.568 11.673-56.808 17.912-90.27 17.912-94.925 0-144.73-71.594-144.73-188.321 0-123.732 56.795-199.994 135.392-199.994s115.172 75.484 115.172 170.435c0 18.664-.792 30.35-1.557 40.453l-177.413-.778zm109.712-52.126c.778-66.924-22.567-102.707-51.347-102.707-38.144 0-55.264 55.251-57.586 102.707h108.933z" fill-rule="nonzero"></path><path d="M373.462 16.043h218.501v523.07L373.462 16.044zm-153.926 0H.88v523.07l218.657-523.07zm76.976 192.77l139.218 330.3H344.5l-41.633-105.197H200.964l95.548-225.103z"></path></g></svg>
-                </div>
-            </div>
-        </div> */}
+        
     </div>
     </section>
     );

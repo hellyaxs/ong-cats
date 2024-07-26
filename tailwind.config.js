@@ -14,6 +14,15 @@ module.exports = {
       },
       fontFamily: {
         'roboto': ['Roboto', 'sans-serif'] // Adicione fallbacks de fontes
+      },
+      colors: {
+        blue:{
+          350: '#1368ae'
+        },
+        rose:{
+          250: '#F58986',
+        },
+
       }
     },
   },

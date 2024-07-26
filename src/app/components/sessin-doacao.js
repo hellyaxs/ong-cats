@@ -8,26 +8,41 @@ export default function Doacoes() {
 
     return (
         <session >
-             <div class="px-6 py-8 mx-auto text-center bg-rose-300">
-             <div class="max-w-lg mx-auto">
+             <div class="px-6 py-8 text-center bg-rose-250">
+             <div class="max-w-3xl mx-auto">
              <h1 class="py-1 text-3xl font-semibold text-gray-800  lg:text-4xl">
                 Gatos para doação</h1>
 
-            <div className="flex justify-evenly mt-3 mb-16">
-                <select className="select select-bordered w-full max-w-xs">
-                    <option disabled selected>Who shot first?</option>
-                    <option>Han Solo</option>
-                    <option>Greedo</option>
+            <div className="flex mx-0 mt-3 mb-16">
+                <select
+                class="mr-6  pl-2 pr-14 w-full rounded-lg bg-rose-250 border border-white text-white sm:text-sm"
+                >
+                <option value="">Estado</option>
+                <option value="JM">John Mayer</option>
+                <option value="SRV">Stevie Ray Vaughn</option>
+                <option value="JH">Jimi Hendrix</option>
+                <option value="BBK">B.B King</option>
+                
                 </select>
-                <select className="select select-bordered w-full max-w-xs">
-                    <option disabled selected>Who shot first?</option>
-                    <option>Han Solo</option>
-                    <option>Greedo</option>
+                <select
+                class="mr-6  pl-2 pr-12 w-full rounded-lg bg-rose-250 border border-white text-white sm:text-sm"
+                >
+                <option value="">Cidade</option>
+                <option value="JM">John Mayer</option>
+                <option value="SRV">Stevie Ray Vaughn</option>
+                <option value="JH">Jimi Hendrix</option>
+                <option value="BBK">B.B King</option>
+                
                 </select>
-                <select className="select select-bordered w-full max-w-xs">
-                    <option disabled selected>Who shot first?</option>
-                    <option>Han Solo</option>
-                    <option>Greedo</option>
+                <select
+                class="mr-6  pl-2 pr-12 w-full rounded-lg bg-rose-250 border border-white text-white sm:text-sm"
+                >
+                <option value="">Genero</option>
+                <option value="JM">John Mayer</option>
+                <option value="SRV">Stevie Ray Vaughn</option>
+                <option value="JH">Jimi Hendrix</option>
+                <option value="BBK">B.B King</option>
+                
                 </select>
                 <button class="flex m-auto items-center py-3 px-8 font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-sky-900 rounded-lg hover:bg-sky-800 focus:outline-none focus:ring focus:ring-sky-300 focus:ring-opacity-80">
               <span class="mx-1">Buscar </span>
@@ -44,17 +59,17 @@ export default function Doacoes() {
             
 
         </div>
-        <div className="flex carousel rounded-box">
-            <Card src={image1} alt="tesot de garo" />
-            <Card src={image2} alt="tesot de garo" />
-            <Card src={image3} alt="tesot de garo" />
-            <Card src={image4} alt="tesot de garo" />
+        <div className="w-full flex">
+            <Card src={image2} alt="tesot de garo" title="Milk" description="Macho/Filhote" location="Tiete, São Paulo SP" isMale={true} />
+            <Card src={image3} alt="tesot de garo" title="Tini" description="Macho/Filhote" location="Tiete, São Paulo SP" isMale={true} />
+            <Card src={image4} alt="tesot de garo" title="Zoin" description="Macho/Filhote" location="Tiete, São Paulo SP" isMale={false} />
+            <Card src={image1} alt="tesot de garo" title="Bird" description="Macho/Filhote" location="Tiete, São Paulo SP" isMale={false} />
         </div>
 
 
 
         <button type="button" 
-        class="my-8 flex mx-auto  bg-rose-400 text-white-700 hover:text-white border border-white-700 hover:bg-rose-800 focus:ring-4 focus:outline-none focus:ring-white-300 font-extrabold rounded-lg text-sm px-64 py-6 text-center dark:border-white-500 dark:text-white dark:hover:text-white dark:hover:bg-rose-500 dark:focus:ring-rose-800">
+        class="my-8 flex mx-auto  bg-rose-250 text-white-700 hover:text-white border border-white-700 hover:bg-rose-800 focus:ring-4 focus:outline-none focus:ring-white-300 font-extrabold rounded-lg text-sm px-64 py-6 text-center dark:border-white-500 dark:text-white dark:hover:text-white dark:hover:bg-rose-500 dark:focus:ring-rose-800">
             <span class="mx-1">Ver todos </span>
             <svg width="14" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M4.21739 0.162988C3.20998 0.693556 2.8003 2.52704 3.39803 3.8501C3.78756 4.71647 4.73452 5.11943 5.65462 4.80378C6.49413 4.51499 6.82322 3.46729 6.54114 1.98975C6.37324 1.11667 6.05759 0.532371 5.55388 0.189853C5.19122 -0.0519252 4.65393 -0.0653572 4.21739 0.162988Z" fill="white"/>
