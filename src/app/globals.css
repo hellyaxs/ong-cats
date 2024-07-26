@@ -8,9 +8,16 @@
     font-style: normal;
     font-weight: 400;
     font-display: swap;
-    src: url(/fonts/roboto-regular.woff2) format('woff2');
+    src: url(../../public/fonts/roboto-regular.woff2) format('woff2');
+  }
+  @font-face {
+    font-family: 'SF New Republic';
+    font-style: normal;
+    font-weight: 400;
+    src: url(../../public/fonts/SF-New-Republic.ttf) format('truetype');
   }
 }
+
 
 :root {
   --foreground-rgb: 0, 0, 0;

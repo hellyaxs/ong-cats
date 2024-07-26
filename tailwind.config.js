@@ -13,7 +13,8 @@ module.exports = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       fontFamily: {
-        'roboto': ['Roboto', 'sans-serif'] // Adicione fallbacks de fontes
+        'roboto': ['Roboto'], // Adicione fallbacks de fontes
+        'sf-new-republic': ['SF New Republic', 'sans-serif'],
       },
       colors: {
         blue:{
@@ -26,5 +27,7 @@ module.exports = {
       }
     },
   },
-  plugins: [],
+  plugins: [
+    require("flowbite/plugin")
+  ],
 };

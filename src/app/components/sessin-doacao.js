@@ -10,10 +10,10 @@ export default function Doacoes() {
         <session >
              <div class="px-6 py-8 text-center bg-rose-250">
              <div class="max-w-3xl mx-auto">
-             <h1 class="py-1 text-3xl font-semibold text-gray-800  lg:text-4xl">
+             <h1 class="font-sf-new-republic text-3xl text-white lg:text-4xl">
                 Gatos para doação</h1>
 
-            <div className="flex mx-0 mt-3 mb-16">
+            <div className="flex mx-0 mt-5 mb-16">
                 <select
                 class="mr-6  pl-2 pr-14 w-full rounded-lg bg-rose-250 border border-white text-white sm:text-sm"
                 >

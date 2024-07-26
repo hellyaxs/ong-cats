@@ -5,24 +5,28 @@ import ImageOverlay from "./components/image-overlay";
 import Sessao from "./components/session";
 import Doacoes from "./components/sessin-doacao";
 import Timeline from "./components/timeline";
+import Perguntas from "./components/perguntas";
+import Parceiros from "./components/Parceiros";
+import Depoimentos from "./components/depoimentos";
+import Fotter from "./components/fotter";
 
 export default function Home() {
 
 
   return (
     <>
-   <header className="flex flex-col items-center font-sans">
+   <header className="flex flex-col items-center font-roboto">
    <div className="container mx-auto py-4">
           <nav className="flex justify-center items-center">
           <Image src="icons/Group.svg" alt="Logo da Ong TinieBird Cats" width={60} height={60} />
-            <div className="font-extrabold mx-4" style={{fontSize: '22px'}}>
+            <div className="font-sf-new-republic font-extrabold mx-4" style={{fontSize: '22px'}}>
             <p>Ong</p>
                <span className="text-rose-250">Tinie</span>
               <span className="text-blue-350 ">Bird</span> 
               <p> Cats</p>
             </div>
             <div className="flex items-center ml-48">
-              <ul className="flex ml-10 space-x-4 font-bold">
+              <ul className="flex ml-10 space-x-4 font-semibold">
                 <li><a href="#" className="hover:text-blue-350">Home</a></li>
                 <li><a href="#" className="hover:text-blue-350">
                   <div className="flex">
@@ -48,7 +52,7 @@ export default function Home() {
               </ul>
             </div>
            
-          <button class="flex ml-11 items-center px-4 py-2 font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-350 rounded-lg hover:bg-blue-500 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-80">
+          <button class="flex ml-11 items-center px-4 py-2 font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-350 rounded-md hover:bg-blue-500 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-80">
               <span class="mx-1">Quero adotar </span>
             <svg width="14" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M4.21739 0.162988C3.20998 0.693556 2.8003 2.52704 3.39803 3.8501C3.78756 4.71647 4.73452 5.11943 5.65462 4.80378C6.49413 4.51499 6.82322 3.46729 6.54114 1.98975C6.37324 1.11667 6.05759 0.532371 5.55388 0.189853C5.19122 -0.0519252 4.65393 -0.0653572 4.21739 0.162988Z" fill="white"/>
@@ -64,26 +68,24 @@ export default function Home() {
 
       
     <main>
-    {/* <div  className="flex justify-center items-center " style={{
-      backgroundImage: 'url(/image-1.png)',
-      height: '100%', // Defina a altura conforme necessário
-      backgroundPosition: 'center',
-      backgroundRepeat: 'no-repeat',
-      backgroundSize: 'cover'
-    }}>*/}
-      
-      {/* <Image src="/cat.png" alt="Gato para adoção" width={600} height={600} /> */}
-       
+    
 
     <ImageOverlay />
-    {/* </div> */}
     <Sessao></Sessao>
     <Doacoes></Doacoes>
     <Timeline/>
+    <Perguntas/>
+    <Depoimentos/>
+    <Parceiros/>
+
+  
     
     
  
    </main>
+   <footer>
+   <Fotter/>
+   </footer>
    </>
   );
 }

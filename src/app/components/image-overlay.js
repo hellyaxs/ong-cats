@@ -32,7 +32,7 @@ const ImageOverlay = () => {
       
       <div 
        style={{ position: 'absolute', top: '51%', left: '23%', transform: 'translate(-50%, -50%)' }}>
-        <h1 className="flex ml-11 font-extrabold text-blue break-all max-w-xs pb-7" style={{fontSize: '36px'}}>
+        <h1 className="font-sf-new-republic flex ml-11 font-extrabold text-blue break-all max-w-xs pb-7" style={{fontSize: '36px'}}>
              Doe Amor, <br/>
              doe o seu lar!<br/>
              Adote um gatinho
