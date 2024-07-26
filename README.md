@@ -13,6 +13,7 @@ pnpm dev
 # or
 bun dev
 ```
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e8ab8e1a-eae9-4aa7-8a4c-209a82dd93ee/deploy-status)](https://app.netlify.com/sites/demokbrtec/deploys)
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 

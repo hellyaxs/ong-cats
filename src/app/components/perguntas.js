@@ -4,7 +4,10 @@ import Image from 'next/image';
 
 export default function Perguntas() {
 
-    const perguntas= ["ino1","inot2","teste","teste2"];
+    const perguntas= ["Como posso adotar um gatinho?",
+        "Os gatos para adoção são castrados?",
+        "O que preciso saber antes de adotar um gato?",
+        "Como fazer a adaptação em casa de um gato adotado?"];
 
     return (
     <section className="bg-rose-100">
@@ -21,12 +24,12 @@ export default function Perguntas() {
             <div class="w-1/2 mx-auto space-y-4">
             { perguntas.map((pergunta) => (
                     <details key={pergunta}
-                     class="group rounded-lg bg-gray-50 p-6 [&_summary::-webkit-details-marker]:hidden " open>
+                     class="group rounded-lg bg-gray-50 p-6 [&_summary::-webkit-details-marker]:hidden " close>
                     <summary class="flex cursor-pointer items-center justify-between gap-1.5 text-gray-900 group-open:bg-rose-300">
-                    <h3 class="font-medium">Como posso adotar um gatinho?</h3>
+                    <h3 class="font-medium">{pergunta}</h3>
 
                     <svg
-                        className="size-5 shrink-0 transition duration-300 group-open:-rotate-180"
+                        className="size-5 text-rose-500 shrink-0 transition duration-300 group-open:-rotate-180"
                         xmlns="http://www.w3.org/2000/svg"
                         fill="none"
                         viewBox="0 0 24 24"
