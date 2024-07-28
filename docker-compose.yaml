@@ -1,8 +1,5 @@
-version: '3.8'
-
 services:
   app:
-    image: app-cats-page
     build:
       context: .
       dockerfile: ./dockerfile

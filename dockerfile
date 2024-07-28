@@ -1,4 +1,4 @@
-FROM node:18.13.0 as build
+FROM node:21.5.0 as build
 
 WORKDIR /app
 
@@ -12,6 +12,6 @@ RUN npm run build
 
 FROM nginx:latest
 
-COPY --from=build app/dist/ /usr/share/nginx/html
+COPY --from=build .next/server/app /usr/share/nginx/html
 
 EXPOSE 80

@@ -18,7 +18,7 @@ export default function Perguntas() {
             src="/quest.svg"
             alt="Logo da Ong TinieBird Cats"
             />
-            <h1 className="font-sf-new-republic mb-5 text-3xl font-semibold text-gray-800 text-center lg:text-4xl">
+            <h1 className="font-sf-new-republic mb-5 text-2xl font-semibold text-gray-800 text-center lg:text-4xl">
                 Perguntas Frequentes</h1>
         
             <div class="w-1/2 mx-auto space-y-4">

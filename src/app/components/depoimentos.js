@@ -24,7 +24,7 @@ export default function Depoimentos() {
             <div class="grid grid-cols-1 relative right-24 gap-8 mt-8 xl:mt-0  xl:w-1/2 md:grid-cols-2">
                 <div className="text-center w-60 justify-center items-center shadow px-2">
                
-                <div class="relative bottom-9  mx-auto h-16 w-16 rounded-full bg-rose-250 flex items-center justify-center">
+                <div class="relative bottom-9 mx-auto h-16 w-16 rounded-full bg-rose-250 flex items-center justify-center">
                     <Image 
                     src="/avatar-1.png" 
                     width={48}

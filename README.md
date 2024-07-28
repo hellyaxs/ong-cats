@@ -78,17 +78,14 @@ docker:
 docker compose up -d
 ```
 
-## [☕ link para demo](demokbrtec.netlify.app/)
-
-
-
+## [[☕ link para demo]](demokbrtec.netlify.app/)
 
 
 Adicione comandos de execução e exemplos que você acha que os usuários acharão úteis. Fornece uma referência de opções para pontos de bônus!
 
-## 📫 Contribuindo para <nome_do_projeto>
+## 📫 Contribuindo 
 
-Para contribuir com <nome_do_projeto>, siga estas etapas:
+Para contribuir com o projeto, siga estas etapas:
 
 1. Bifurque este repositório.
 2. Crie um branch: `git checkout -b <nome_branch>`.

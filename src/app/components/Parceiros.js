@@ -18,8 +18,8 @@ export default function Parceiros() {
         </div> */}
       
              <div class="max-w-5xl mx-auto">
-             <h1 class="font-sf-new-republic text-3xl font-semibold text-gray-800  lg:text-4xl">
-                Nosso Parceiros</h1>
+             <h2 class="font-sf-new-republic text-xl font-medium text-gray-800  lg:text-3xl">
+                Nosso Parceiros</h2>
 
         
                 <div class="mx-auto my-20">

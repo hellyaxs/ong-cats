@@ -13,6 +13,7 @@ module.exports = {
         "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
         "wave-contato": "url('/images/wave-contato.svg')",
         "seta-contato": "url('/images/seta-contato.png')",
+        "gradiente-adocao": "url('/images/background/gradiente-bg.png')",
       },
       fontFamily: {
         'roboto': ['Roboto'], // Adicione fallbacks de fontes

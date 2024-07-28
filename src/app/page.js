@@ -21,7 +21,7 @@ export default function Home() {
           <nav className="flex justify-center items-center">
             
           <Image src="icons/logo.svg" alt="Logo da Ong TinieBird Cats" width={60} height={60} />
-            <div className="font-sf-new-republic font-extrabold mx-4" style={{fontSize: '22px'}}>
+            <div className="font-sf-new-republic font-extrabold mx-4 text-2xl">
             <p>Ong</p>
                <span className="text-rose-250">Tinie</span>
               <span className="text-blue-350 ">Bird</span> 
@@ -73,7 +73,7 @@ export default function Home() {
     
 
     <ImageOverlay />
-    <Sessao></Sessao>
+    <Sessao />
     <Doacoes></Doacoes>
     <Timeline/>
     <Perguntas/>
