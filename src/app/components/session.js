@@ -42,8 +42,8 @@ export default function Sessao() {
             </div>
             <div></div>
         
-            <div className="flex items-center justify-center rounded-ful">
-            <div class="h-96 w-96 flex items-center justify-center rounded-full bg-rose-100">
+            <div className="flex items-center justify-center">
+            <div class="p-9 flex items-center justify-center rounded-full bg-rose-100">
                 <div class="flex flex-col text-white items-center pt-14 h-72 w-72 rounded-full bg-rose-250">
                 
                 <svg width="80" height="80" viewBox="0 0 112 132" fill="none" xmlns="http://www.w3.org/2000/svg">

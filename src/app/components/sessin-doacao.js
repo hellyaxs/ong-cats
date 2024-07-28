@@ -100,7 +100,15 @@ export default function Doacoes() {
 
       
          {/* <Image className=" w-full h-24" src="/images/background/whiete.svg" width={100} height={700} alt="" /> */}
+         <Image className="relative top-1 mt-7 mx-auto w-full"
+        src="/images/background/gradiente-bg-footter-white.png"
+        width={1820}
+        height={86}
+        alt="Gato propaganda"
+        />
         </div>
+
+       
         </session>
     );
 }

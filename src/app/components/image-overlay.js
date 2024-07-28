@@ -3,10 +3,11 @@ import Image from 'next/image';
 const ImageOverlay = () => {
   
   return (
+ 
     
-<div className="container mx-auto px-8 w-full flex justify-center items-center" style={{height:"700px"}}>
+<div className=" container mx-auto px-12 flex justify-center items-center " style={{height:"400px"}}>
 
-<div className="w-1/3"
+<div className="container w-1/3"
        >
         <h1 className="font-sf-new-republic flex ml-11 font-extrabold text-blue break-all max-w-xs pb-7" style={{fontSize: '36px'}}>
              Doe Amor, <br/>
@@ -26,15 +27,16 @@ const ImageOverlay = () => {
         </button>
       </div>
 
-      <div className="w-2/3">
+      <div className="container w-1/2">
         <Image 
           src="/cat.png"
-          width={1530}
-          height={1500}
+          width={1030}
+          height={1000}
           alt="Gato propaganda"
         />
       </div>
     </div> 
+ 
   );
 };
 

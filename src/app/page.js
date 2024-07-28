@@ -69,11 +69,11 @@ export default function Home() {
        </header>
 
       
-    <main className="bg-princial bg-contain w-full  bg-no-repeat">
+    <main>
     
-
     <ImageOverlay />
     <Sessao />
+   
     <Doacoes></Doacoes>
     <Timeline/>
     <Perguntas/>

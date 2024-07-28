@@ -35,8 +35,9 @@ Para instalar o Ong de gatinho , siga estas etapas:
 Linux, macOS Windows:
 
 ```bash
-git clone https://github.com/hellyaxs/projeto-KBRTEC.git
+git clone https://github.com/hellyaxs/projeto-KBRTEC.git && cd projeto-KBRTEC
 ```
+
 
 ```bash
 npm install
@@ -47,12 +48,7 @@ docker:
 docker build -t . 
 ```
 
-
-
-
-
-
-## ☕ Usando Ong de gatinho 
+## ☕ [[link para demo]](demokbrtec.netlify.app/)
 
 <div style="height: 400px; overflow: scroll; border: 1px solid gray;">
   <img src="imagem.jpg" alt="Large Image" style="width: 100%; height: 100%; object-fit: cover;">
