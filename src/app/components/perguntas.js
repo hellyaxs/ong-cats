@@ -23,13 +23,16 @@ export default function Perguntas() {
         
             <div class="w-1/2 mx-auto space-y-4">
             { perguntas.map((pergunta) => (
+             
+              
                     <details key={pergunta}
-                     class="group rounded-lg bg-gray-50 p-6 [&_summary::-webkit-details-marker]:hidden " close>
-                    <summary class="flex cursor-pointer items-center justify-between gap-1.5 text-gray-900 group-open:bg-rose-300">
+                     class="group rounded-lg bg-white p-6" close>
+                    
+                    <summary class="flex group-open:bg-rose-200 cursor-pointer items-center justify-between gap-1.5 text-gray-900">
                     <h3 class="font-medium">{pergunta}</h3>
 
                     <svg
-                        className="size-5 text-rose-500 shrink-0 transition duration-300 group-open:-rotate-180"
+                        className="size-6 bg-rose-100 text-rose-500 shrink-0 transition duration-300 group-open:-rotate-180"
                         xmlns="http://www.w3.org/2000/svg"
                         fill="none"
                         viewBox="0 0 24 24"
@@ -39,14 +42,15 @@ export default function Perguntas() {
                     </svg>
                 
                     </summary>
-                    <p class="mt-4 leading-relaxed text-gray-700  group-open:bg-rose-300">
+                    <p class="mt-4 leading-relaxed text-gray-700">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                     Donec pharetra tellus ut erat consequat auctor integer nulla nunc
                     dolor sit amet, consectetur adipiscing elit. Donec
                     </p>
+                    
                 </details>
-         
-                
+            
+             
                   
                 ))}
             
