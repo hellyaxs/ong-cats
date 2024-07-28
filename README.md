@@ -1,8 +1,66 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Frontend Ong de gatinho   [![Netlify Status](https://api.netlify.com/api/v1/badges/e8ab8e1a-eae9-4aa7-8a4c-209a82dd93ee/deploy-status)](https://app.netlify.com/sites/demokbrtec/deploys)
 
-## Getting Started
+![GitHub repo size](https://img.shields.io/github/repo-size/iuricode/README-template?style=for-the-badge)
+![GitHub language count](https://img.shields.io/github/languages/count/iuricode/README-template?style=for-the-badge)
+![GitHub forks](https://img.shields.io/github/forks/iuricode/README-template?style=for-the-badge)
+![Bitbucket open issues](https://img.shields.io/bitbucket/issues/iuricode/README-template?style=for-the-badge)
+![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/iuricode/README-template?style=for-the-badge)
 
-First, run the development server:
+
+
+> Linha adicional de texto informativo sobre o que o projeto faz. Sua introdução deve ter cerca de 2 ou 3 linhas. Não exagere, as pessoas não vão ler.
+
+### 📝 Ajustes e melhorias
+
+O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
+
+- [ ] Componentizar elementos mais basicos  
+- [ ] Otimizar imagens com tiny-png 
+- [ ] Ajustar Responsividade 
+- [ ] melhorar SEO com google-Page-speed 
+- [x] fazer deploy no Netlify 
+
+## 💻 Pré-requisitos
+
+Antes de começar, verifique se você atendeu aos seguintes requisitos:
+
+- Você instalou a versão mais recente de `Nodejs/docker`
+- Você tem uma máquina `<Windows / Linux / Mac>`
+- Você leu `<guia / link / documentação_relacionada_ao_projeto>`.
+
+## 🚀 Instalando <nome_do_projeto>
+
+Para instalar o <nome_do_projeto>, siga estas etapas:
+
+Linux, macOS Windows:
+
+```bash
+git clone projeto
+```
+
+```bash
+npm install
+```
+
+docker:
+```bash
+docker build -t . 
+```
+
+
+
+
+
+
+## ☕ Usando Ong de gatinho 
+
+<div style="height: 400px; overflow: scroll; border: 1px solid gray;">
+  <img src="imagem.jpg" alt="Large Image" style="width: 100%; height: 100%; object-fit: cover;">
+</div>
+
+Para usar Ong de gatinho, siga estas etapas:
+
+usando Nodejs
 
 ```bash
 npm run dev
@@ -13,25 +71,29 @@ pnpm dev
 # or
 bun dev
 ```
-[![Netlify Status](https://api.netlify.com/api/v1/badges/e8ab8e1a-eae9-4aa7-8a4c-209a82dd93ee/deploy-status)](https://app.netlify.com/sites/demokbrtec/deploys)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+docker:
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+```bash
+docker compose up -d
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## [☕ link para demo](demokbrtec.netlify.app/)
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+Adicione comandos de execução e exemplos que você acha que os usuários acharão úteis. Fornece uma referência de opções para pontos de bônus!
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📫 Contribuindo para <nome_do_projeto>
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Para contribuir com <nome_do_projeto>, siga estas etapas:
+
+1. Bifurque este repositório.
+2. Crie um branch: `git checkout -b <nome_branch>`.
+3. Faça suas alterações e confirme-as: `git commit -m '<mensagem_commit>'`
+4. Envie para o branch original: `git push origin <nome_do_projeto> / <local>`
+5. Crie a solicitação de pull.
+
+Como alternativa, consulte a documentação do GitHub em [como criar uma solicitação pull](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
