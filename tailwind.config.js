@@ -14,6 +14,13 @@ module.exports = {
         "wave-contato": "url('/images/wave-contato.svg')",
         "seta-contato": "url('/images/seta-contato.png')",
         "gradiente-adocao": "url('/images/background/gradiente-bg.png')",
+        "princial": "url('/images/background/bg-principal-50.png')",
+      },
+      backgroundSize: {
+        '50%': '50%',
+        '75%': '75%',
+        '100%': '100%',
+        // Adicione mais tamanhos conforme necessário
       },
       fontFamily: {
         'roboto': ['Roboto'], // Adicione fallbacks de fontes

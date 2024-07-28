@@ -8,7 +8,7 @@ export default function Contato() {
         
     <div className="flex bg-wave-contato h-screen bg-cover bg-center bg-no-repeat ">
 
-    <div className="w-1/2 relative top-56 left-9">
+    <div className="w-1/2 relative top-56 mt-2 left-24">
 
         <div class="w-full my-16 sm:flex-row sm:items-center sm:justify-center">
 
@@ -42,7 +42,7 @@ export default function Contato() {
   
       </div>
             <div className="w-1/2 mx-auto bg-top bg-seta-contato" style={{backgroundPosition: "99% 9%"}}>
-                <Image className="mx-auto h-screen w-screen relative top-24 right-20 z-10"
+                <Image className="mx-auto h-screen w-screen relative top-24 right-32 z-10"
                 src="/images/cat_transparan.png"
                 width={700}
                 height={300}

@@ -21,18 +21,17 @@ export default function Depoimentos() {
                 </p>
             </div>
 
-            <div class="grid grid-cols-1 relative right-24 gap-8 mt-8 xl:mt-0  xl:w-1/2 md:grid-cols-2">
-                <div className="text-center w-60 justify-center items-center shadow px-2">
-               
-                <div class="relative bottom-9 mx-auto h-16 w-16 rounded-full bg-rose-250 flex items-center justify-center">
-                    <Image 
-                    src="/avatar-1.png" 
-                    width={48}
-                    height={48}
-                    alt=""/>
-                </div>
+            <div class="grid grid-cols-1 relative right-24 mt-8 xl:mt-0  xl:w-1/2 md:grid-cols-2">
+                <div className="text-center  w-60 justify-center items-center shadow-2xl shadow-rose-100 rounded-md px-2 ">
+                    <div class="relative bottom-9 mx-auto h-16 w-16 rounded-full bg-rose-250 flex items-center justify-center">
+                        <Image 
+                        src="/avatar-2.png" 
+                        width={48}
+                        height={48}
+                        alt=""/>
+                    </div>
                  <div className="relative bottom-7"> 
-                    <h1 class=" text-xl font-semibold text-gray-700 capitalize dark:text-white">Laura</h1>
+                    <h1 class=" text-xl font-semibold text-gray-700 capitalize dark:text-white"> Laura</h1>
 
                     <p class="mt-2 text-sm text-gray-500 capitalize dark:text-gray-300">Tutora da Paçoca</p>
                     <p class="mt-2 text-sm text-gray-500 capitalize dark:text-gray-300">
@@ -42,13 +41,26 @@ export default function Depoimentos() {
                     </div>
                 </div>
 
-                <div>
-                    {/* <img class="object-cover rounded-xl aspect-square" src="https://images.unsplash.com/photo-1499470932971-a90681ce8530?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt=""> */}
-
-                    <h1 class="mt-4 text-2xl font-semibold text-gray-700 capitalize dark:text-white">Mia</h1>
-
-                    <p class="mt-2 text-gray-500 capitalize dark:text-gray-300">Graphic Designer</p>
+                <div className="text-center w-60  xl:relative xl:right-12 justify-center items-center shadow-2xl rounded-md shadow-rose-100 px-2">
+               
+                <div class="relative bottom-9 mx-auto h-16 w-16 rounded-full bg-rose-250 flex items-center justify-center">
+                    <Image 
+                    src="/avatar-1.png" 
+                    width={48}
+                    height={48}
+                    alt=""/>
                 </div>
+                 <div className="relative bottom-7"> 
+                    <h1 class=" text-xl font-semibold text-gray-700 capitalize dark:text-white">Rômulo</h1>
+
+                    <p class="mt-2 text-sm text-gray-500 capitalize dark:text-gray-300">Tutor do Pantera</p>
+                    <p class="mt-2 text-sm text-gray-500 capitalize dark:text-gray-300">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                         Donec pharetra tellus ut erat consequat auctor integer nulla nunc.
+                    </p>
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>

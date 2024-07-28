@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Sessao() {
 
     return (
-    <section class="bg-white ">
+    <section class="bg-transparent mt-16">
         <div class="container px-5 py-16 mx-auto text-center">
         <div class="max-w-2xl mx-auto">
         <button class="px-11 py-2 font-medium tracking-wide text-white  transition-colors duration-300 transform bg-rose-250 rounded-lg hover:bg-rose-500 focus:outline-none focus:ring focus:ring-rose-250 focus:ring-opacity-80">

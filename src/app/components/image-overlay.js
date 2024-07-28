@@ -4,43 +4,10 @@ const ImageOverlay = () => {
   
   return (
     
-  <div   style={{msOverflowX:'hidden', position: 'relative', width: '100%', height: '700px' }}>
+<div className="container mx-auto px-8 w-full flex justify-center items-center" style={{height:"700px"}}>
 
-
-
-{/* <div className="bg-wave-contato h-screen bg-cover bg-center bg-no-repeat ">
-
-</div> */}
-     {/* Imagem de fundo */}
-      <Image
-       className="w-full overflow-hidden relative"
-       style={{msOverflowX:'hidden',top: '59%', left: '52%', transform: 'translate(-49%, -50%) rotate(1deg)' }}
-          src="/image.png"
-          width={1725}
-          height={1600}
-          objectFit="cover"
-          alt="Elemento decorativo inferior"
-        />
-      <Image 
-       style={{msOverflowX:'hidden',}}
-        src="/image-1.png" // Caminho relativo no projeto
-        layout="fill"
-        objectFit="cover"
-        alt="Fundo geométrico"
-      />
-    
-      {/*  Imagem principal do gato, centralizada  */}
-
-      <Image 
-       style={{msOverflowX:'hidden', position: 'absolute', top: '51%', left: '7%', transform: 'translate(-50%, -50%) rotate(20deg)' }}
-        src="/icons/image-curve.svg"
-        width={310}
-        height={310}
-        alt="curve"
-      />
-      
-      <div 
-       style={{ position: 'absolute', top: '51%', left: '23%', transform: 'translate(-50%, -50%)' }}>
+<div className="w-1/3"
+       >
         <h1 className="font-sf-new-republic flex ml-11 font-extrabold text-blue break-all max-w-xs pb-7" style={{fontSize: '36px'}}>
              Doe Amor, <br/>
              doe o seu lar!<br/>
@@ -59,32 +26,15 @@ const ImageOverlay = () => {
         </button>
       </div>
 
-        <Image style={{position: 'absolute', top: '51%', left: '58%', transform: 'translate(-50%, -50%)' }}
+      <div className="w-2/3">
+        <Image 
           src="/cat.png"
-          width={1030}
-          height={500}
-          alt="Gato"
-        />
-
-      {/* {/* Outras imagens geométricas sobrepostas  */}
-      <div  className="z-0" style={{ position: 'absolute', top: -3, left: 0 }}>
-        <Image
-          src="/forma-branca.png"
-          width={1712}
-          height={86}
-          alt="Elemento decorativo superior"
+          width={1530}
+          height={1500}
+          alt="Gato propaganda"
         />
       </div>
-      <div style={{ position: 'absolute', top: 0, left: 100 }}>
-        <Image
-          src="/Group 136176.png"
-          width={1712}
-          height={86}
-          alt="Elemento decorativo superior"
-        />
-      </div>
-     
-    </div>
+    </div> 
   );
 };
 
