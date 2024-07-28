@@ -10,7 +10,9 @@ module.exports = {
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        "wave-contato": "url('/images/wave-contato.svg')",
+        "seta-contato": "url('/images/seta-contato.png')",
       },
       fontFamily: {
         'roboto': ['Roboto'], // Adicione fallbacks de fontes
@@ -22,6 +24,7 @@ module.exports = {
         },
         rose:{
           250: '#F58986',
+          450: '#E7807D'
         },
 
       }
