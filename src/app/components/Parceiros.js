@@ -4,7 +4,7 @@ export default function Parceiros() {
 
     return (
     <div class="py-8 text-center">
-        <div className="overflow-hidden relative top-24">
+        {/* <div className="overflow-hidden relative top-24">
         <svg 
         width="1820" height="580" viewBox="0 0 1920 590" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g opacity="0.4">
@@ -15,7 +15,7 @@ export default function Parceiros() {
             </g>
         </svg>
 
-        </div>
+        </div> */}
       
              <div class="max-w-5xl mx-auto">
              <h1 class="font-sf-new-republic text-3xl font-semibold text-gray-800  lg:text-4xl">
