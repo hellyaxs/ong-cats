@@ -9,6 +9,7 @@ import Perguntas from "./components/perguntas";
 import Parceiros from "./components/Parceiros";
 import Depoimentos from "./components/depoimentos";
 import Fotter from "./components/fotter";
+import Contato from "./components/contato";
 
 export default function Home() {
 
@@ -78,6 +79,7 @@ export default function Home() {
     <Perguntas/>
     <Depoimentos/>
     <Parceiros/>
+    <Contato />
 
   
     

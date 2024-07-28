@@ -5,25 +5,34 @@ const ImageOverlay = () => {
   return (
     
   <div   style={{msOverflowX:'hidden', position: 'relative', width: '100%', height: '700px' }}>
-      {/* Imagem de fundo */}
+
+
+
+{/* <div className="bg-wave-contato h-screen bg-cover bg-center bg-no-repeat ">
+
+</div> */}
+     {/* Imagem de fundo */}
       <Image
-       style={{msOverflowX:'hidden', position: 'relative',top: '59%', left: '52%', transform: 'translate(-49%, -50%) rotate(1deg)' }}
+       className="w-full overflow-hidden relative"
+       style={{msOverflowX:'hidden',top: '59%', left: '52%', transform: 'translate(-49%, -50%) rotate(1deg)' }}
           src="/image.png"
           width={1725}
           height={1600}
           objectFit="cover"
           alt="Elemento decorativo inferior"
         />
-      <Image style={{msOverflowX:'hidden',}}
+      <Image 
+       style={{msOverflowX:'hidden',}}
         src="/image-1.png" // Caminho relativo no projeto
         layout="fill"
         objectFit="cover"
         alt="Fundo geométrico"
       />
     
-      {/* Imagem principal do gato, centralizada */}
+      {/*  Imagem principal do gato, centralizada  */}
 
-      <Image style={{msOverflowX:'hidden', position: 'absolute', top: '51%', left: '7%', transform: 'translate(-50%, -50%) rotate(20deg)' }}
+      <Image 
+       style={{msOverflowX:'hidden', position: 'absolute', top: '51%', left: '7%', transform: 'translate(-50%, -50%) rotate(20deg)' }}
         src="/icons/image-curve.svg"
         width={310}
         height={310}
@@ -57,7 +66,7 @@ const ImageOverlay = () => {
           alt="Gato"
         />
 
-      {/* Outras imagens geométricas sobrepostas */}
+      {/* {/* Outras imagens geométricas sobrepostas  */}
       <div  className="z-0" style={{ position: 'absolute', top: -3, left: 0 }}>
         <Image
           src="/forma-branca.png"
