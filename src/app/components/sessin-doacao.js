@@ -104,7 +104,7 @@ export default function Doacoes() {
         src="/images/background/gradiente-bg-footter-white.png"
         width={1820}
         height={86}
-        alt="Gato propaganda"
+        alt="imagen auxiliar da sessão de doação"
         />
         </div>
 
