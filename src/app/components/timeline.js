@@ -18,10 +18,10 @@ export default function Timeline() {
        
         <div class="flex w-full">
             <Image  className="w-1/2"
-            src={"/images/gato-5.png"}
+            src={"/images/cats/gato-5.png"}
             width={600}
             height={200}
-            alt="uyi"
+            alt="gato branco e preto da time line"
             />
         
         <div class="max-w-6xl mx-auto px-4 md:px-6 ">

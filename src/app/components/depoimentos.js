@@ -1,4 +1,8 @@
 import Image from "next/image";
+
+import laura from "../../../public/images/avatar/avatar-2.png";
+import romulo from "../../../public/images/avatar/avatar-1.png";
+
 export default function Depoimentos() {
 
     return (
@@ -25,10 +29,10 @@ export default function Depoimentos() {
                 <div className="text-center  w-60 justify-center items-center shadow-2xl shadow-rose-100 rounded-md px-2 ">
                     <div class="relative bottom-9 mx-auto h-16 w-16 rounded-full bg-rose-250 flex items-center justify-center">
                         <Image 
-                        src="/avatar-2.png" 
+                        src={laura}
                         width={48}
                         height={48}
-                        alt=""/>
+                        alt="laura tutora de animais"/>
                     </div>
                  <div className="relative bottom-7"> 
                     <h1 class=" text-xl font-semibold text-gray-700 capitalize dark:text-white"> Laura</h1>
@@ -45,10 +49,10 @@ export default function Depoimentos() {
                
                 <div class="relative bottom-9 mx-auto h-16 w-16 rounded-full bg-rose-250 flex items-center justify-center">
                     <Image 
-                    src="/avatar-1.png" 
+                    src={romulo} 
                     width={48}
                     height={48}
-                    alt=""/>
+                    alt="romulo homem tutor de animais"/>
                 </div>
                  <div className="relative bottom-7"> 
                     <h1 class=" text-xl font-semibold text-gray-700 capitalize dark:text-white">Rômulo</h1>

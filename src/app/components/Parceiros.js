@@ -1,4 +1,9 @@
 import Image from 'next/image'
+import whiskas from '../../../public/images/parceiros/image 4.png';
+import royal from '../../../public/images/parceiros/image 5.png';
+import golden from '../../../public/images/parceiros/image 6.png';
+import premier from '../../../public/images/parceiros/image 7.png';
+import petlov from '../../../public/images/parceiros/image 8.png';
 
 export default function Parceiros() {
 
@@ -26,7 +31,7 @@ export default function Parceiros() {
                     <div class="grid grid-cols-2 gap-12  md:grid-cols-6 lg:grid-cols-5">
                         <div class="flex items-center justify-center col-span-1 md:col-span-2 lg:col-span-1">
                             <Image className=" mt-1 text-gray-500 fill-current dark:text-gray-300"
-                            src="/images/image 4.png"
+                            src={petlov}
                             alt="Parceiro 1"
                             width={500}
                             height={200} />
@@ -35,7 +40,7 @@ export default function Parceiros() {
                <div class="flex items-center justify-center col-span-1 md:col-span-2 lg:col-span-1">
                
                 <Image className=" mt-1 text-gray-500 fill-current dark:text-gray-300"
-                 src="/images/image 5.png"
+                 src={golden}
                  alt="Parceiro 1"
                  width={500}
                  height={200} /> 
@@ -44,7 +49,7 @@ export default function Parceiros() {
                <div class="flex items-center justify-center col-span-1 md:col-span-2 lg:col-span-1">
                
                 <Image className=" mt-1 text-gray-500 fill-current dark:text-gray-300"
-                 src="/images/image 6.png"
+                 src={whiskas}
                  alt="Parceiro 1"
                  width={500}
                  height={200} />     
@@ -53,7 +58,7 @@ export default function Parceiros() {
                <div class="flex items-center justify-center col-span-1 md:col-span-3 lg:col-span-1">
                 
                  <Image className=" mt-1 text-gray-500 fill-current dark:text-gray-300"
-                 src="/images/image 7.png"
+                 src={royal}
                  alt="Parceiro 1"
                  width={500}
                  height={200} />
@@ -62,7 +67,7 @@ export default function Parceiros() {
                <div class="flex items-center justify-center col-span-2 md:col-span-3 lg:col-span-1">
                  
                   <Image className=" mt-1 text-gray-500 fill-current dark:text-gray-300"
-                 src="/images/image 8.png"
+                 src={premier}
                  alt="Parceiro 1"
                  width={500}
                  height={400} />

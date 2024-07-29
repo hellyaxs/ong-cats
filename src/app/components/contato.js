@@ -1,4 +1,5 @@
 import Image from "next/image";
+import caramelo from "../../../public/images/cats/cat_transparan.png";
 
 export default function Contato() {
 
@@ -43,10 +44,10 @@ export default function Contato() {
       </div>
             <div className="w-1/2 mx-auto bg-top bg-seta-contato" style={{backgroundPosition: "99% 9%"}}>
                 <Image className="mx-auto h-screen w-screen relative top-24 right-32 z-10"
-                src="/images/cat_transparan.png"
+                src={caramelo}
                 width={700}
                 height={300}
-                alt="Logo da Ong TinieBird Cats"
+                alt="gato caramelo sentado"
                 />
             </div>
 

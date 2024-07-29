@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Head from "next/head";
-import Button from "./components/button";
+import Button from "./components/widgets/button";
 import ImageOverlay from "./components/image-overlay";
 import Sessao from "./components/session";
 import Doacoes from "./components/sessin-doacao";
