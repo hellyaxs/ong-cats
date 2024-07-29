@@ -1,8 +1,8 @@
 import Card from "./card";
-import image1 from '../../../public/images/gato-1.png';
-import image2 from '../../../public/images/gato-2.png';
-import image3 from '../../../public/images/gato-3.png';
-import image4 from '../../../public/images/gato-4.png';
+import image1 from '../../../public/images/cats/gato-1.png';
+import image2 from '../../../public/images/cats/gato-2.png';
+import image3 from '../../../public/images/cats/gato-3.png';
+import image4 from '../../../public/images/cats/gato-4.png';
 import Image from "next/image";
 
 export default function Doacoes() {

@@ -15,7 +15,7 @@
 O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
 
 - [ ] Componentizar elementos mais basicos  
-- [ ] Otimizar imagens com tiny-png 
+- [x] Otimizar imagens com tiny-png 
 - [ ] Ajustar Responsividade 
 - [ ] melhorar SEO com google-Page-speed 
 - [x] fazer deploy no Netlify 

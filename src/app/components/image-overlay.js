@@ -29,7 +29,7 @@ const ImageOverlay = () => {
 
       <div className="p-7">
         <Image 
-          src="/cat.png"
+          src="/images/background/cat.png"
           width={1530}
           height={1300}
           alt="Gato propaganda"

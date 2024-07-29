@@ -27,7 +27,7 @@ export default function Perguntas() {
             <Image className="mx-auto mb-2"
             width={30}
             height={30}
-            src="/quest.svg"
+            src="/icons/quest.svg"
             alt="Logo da Ong TinieBird Cats"
             />
             <h1 className="font-sf-new-republic mb-7 text-2xl font-medium text-gray-800 text-center lg:text-3xl">

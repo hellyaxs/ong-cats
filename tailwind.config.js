@@ -11,8 +11,8 @@ module.exports = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
         "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-        "wave-contato": "url('/images/wave-contato.svg')",
-        "seta-contato": "url('/images/seta-contato.png')",
+        "wave-contato": "url('/images/background/wave-contato.svg')",
+        "seta-contato": "url('/images/background/seta-contato.png')",
         "gradiente-adocao": "url('/images/background/gradiente-bg.png')",
         "princial": "url('/images/background/atual.png')",
       },
