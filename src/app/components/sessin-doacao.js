@@ -60,7 +60,7 @@ export default function Doacoes() {
             
 
         </div>
-        <div className="w-full flex">
+        <div className="w-full flex overflow-hidden">
             <Card src={image2} alt="tesot de garo" title="Milk" description="Macho/Filhote" location="Tiete, São Paulo SP" isMale={true} />
             <Card src={image3} alt="tesot de garo" title="Tini" description="Macho/Filhote" location="Tiete, São Paulo SP" isMale={true} />
             <Card src={image4} alt="tesot de garo" title="Zoin" description="Macho/Filhote" location="Tiete, São Paulo SP" isMale={false} />
@@ -70,8 +70,8 @@ export default function Doacoes() {
 
 
         <button type="button" 
-        class="mt-8 flex mx-auto  bg-rose-250 text-white-700 hover:text-white border border-white-700 hover:bg-rose-800 focus:ring-4 focus:outline-none focus:ring-white-300 font-extrabold rounded-lg text-sm px-64 py-6 text-center dark:border-white-500 dark:text-white dark:hover:text-white dark:hover:bg-rose-500 dark:focus:ring-rose-800">
-            <span class="mx-1">Ver todos </span>
+        class="mt-8 flex mx-auto w-1/3 justify-center items-center py-6 bg-rose-250 text-white-700 hover:text-white border border-white-700 hover:bg-rose-800 focus:ring-4 focus:outline-none focus:ring-white-300 font-extrabold rounded-lg text-sm  text-center dark:border-white-500 dark:text-white dark:hover:text-white dark:hover:bg-rose-500 dark:focus:ring-rose-800">
+            <span class="mx-1 text-white">Ver todos </span>
             <svg width="14" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M4.21739 0.162988C3.20998 0.693556 2.8003 2.52704 3.39803 3.8501C3.78756 4.71647 4.73452 5.11943 5.65462 4.80378C6.49413 4.51499 6.82322 3.46729 6.54114 1.98975C6.37324 1.11667 6.05759 0.532371 5.55388 0.189853C5.19122 -0.0519252 4.65393 -0.0653572 4.21739 0.162988Z" fill="white"/>
               <path d="M8.58284 0.143313C7.90452 0.499263 7.44112 1.62084 7.4344 2.93719C7.42768 4.20652 7.87766 4.81097 8.88507 4.89156C10.1208 4.9923 10.9402 4.05206 10.9402 2.52751C10.9402 1.38578 10.5171 0.512696 9.78502 0.136597C9.45593 -0.0313044 8.90522 -0.0245886 8.58284 0.143313Z" fill="white"/>
@@ -81,22 +81,7 @@ export default function Doacoes() {
             </svg>
         </button>
 
-     {/* <div className="w-full h-24">
-     <svg className="w-full h-full top-12" name="white transprarete wave"
-         width="1920" height="86" viewBox="0 0 1920 86" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <g opacity="0.3">
-            <path d="M-9.45947 83.5569C482.942 74.2017 836.811 27.0792 969.593 0V83.5569H-9.45947C-118.997 85.638 -235.39 85.8501 -357.729 83.5569H-9.45947Z" fill="white"/>
-            <path d="M1947.96 83.5569C1455.56 74.2017 1101.69 27.0792 968.907 0V83.5569H1947.96C2057.5 85.638 2173.89 85.8501 2296.23 83.5569H1947.96Z" fill="white"/>
-            </g>
-        </svg>
-        <svg className="relative w-full bottom-9" name="white wave"
-            width="1920" height="36" viewBox="0 0 1920 63" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M254.751 61.5C614.225 54.6703 872.564 20.269 969.5 0.5V61.5H254.751C174.785 63.0193 89.813 63.1742 0.5 61.5H254.751Z" fill="white"/>
-            <path d="M1683.75 61.5C1324.27 54.6703 1065.94 20.269 969 0.5V61.5H1683.75C1763.72 63.0193 1848.69 63.1742 1938 61.5H1683.75Z" fill="white"/>
-        </svg>
 
-     </div>
-        */}
 
       
          {/* <Image className=" w-full h-24" src="/images/background/whiete.svg" width={100} height={700} alt="" /> */}

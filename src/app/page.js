@@ -27,7 +27,7 @@ export default function Home() {
               <span className="text-blue-350 ">Bird</span> 
               <p> Cats</p>
             </div>
-            <div className="flex items-center ml-48">
+            <div className="xl:flex items-center ml-48 sm:hidden  md:hidden">
               <ul className="flex ml-10 space-x-4 font-semibold">
                 <li><a href="#" className="hover:text-blue-350">Home</a></li>
                 <li><a href="#" className="hover:text-blue-350">
