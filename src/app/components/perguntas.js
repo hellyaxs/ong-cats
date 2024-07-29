@@ -11,7 +11,7 @@ export default function Perguntas() {
 
     return (
     <section className="flex bg-rose-100 w-full justify-center items-center ">
-        <div className="relative bottom-56 right-24 overflow-hidden rotate-180 w-1/3">
+        <div className="relative bottom-56 overflow-hidden rotate-180 w-1/3">
                <svg 
                 width="580" height="654" viewBox="0 0 580 654" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M86.2497 284.476C81.8816 323.456 126.216 370.608 175.493 379.169C207.724 384.828 237.532 365.633 246.336 333.299C254.347 303.783 230.851 274.132 183.279 253.585C155.144 241.478 132.382 239.171 112.874 246.901C98.9654 252.561 88.1872 267.615 86.2497 284.476Z" fill="white"/>
@@ -23,7 +23,7 @@ export default function Perguntas() {
         </div>
         
 
-        <div className="w-1/3">
+        <div className="w-2/3  ">
             <Image className="mx-auto mb-2"
             width={30}
             height={30}
@@ -33,7 +33,7 @@ export default function Perguntas() {
             <h1 className="font-sf-new-republic mb-7 text-2xl font-medium text-gray-800 text-center lg:text-3xl">
                 Perguntas Frequentes</h1>
         
-            <div class="w-full mx-auto space-y-4">
+            <div class="w-full  space-y-4">
             { perguntas.map((pergunta) => (
              
               
@@ -69,7 +69,7 @@ export default function Perguntas() {
             </div>
         </div>
 
-        <div className="overflow-hidden top-2 pl-24 w-1/3">
+        <div className="overflow-hidden top-2 w-1/3">
                <svg 
                 width="540" height="614" viewBox="0 0 540 654" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M86.2497 284.476C81.8816 323.456 126.216 370.608 175.493 379.169C207.724 384.828 237.532 365.633 246.336 333.299C254.347 303.783 230.851 274.132 183.279 253.585C155.144 241.478 132.382 239.171 112.874 246.901C98.9654 252.561 88.1872 267.615 86.2497 284.476Z" fill="white"/>

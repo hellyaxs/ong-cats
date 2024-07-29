@@ -3,13 +3,13 @@ import Image from "next/image";
 export default function Sessao() {
 
     return (
-    <section class="bg-transparent mt-16">
+    <section class="bg-transparent">
         <div class="container px-5 py-16 mx-auto text-center">
         <div class="max-w-2xl mx-auto">
         <button class="px-11 py-2 font-medium tracking-wide text-white  transition-colors duration-300 transform bg-rose-250 rounded-lg hover:bg-rose-500 focus:outline-none focus:ring focus:ring-rose-250 focus:ring-opacity-80">
             Apoie e faça a sua parte
         </button>
-            <h1 class="font-sf-new-republic pt-4 text-2xl font-medium text-gray-800  lg:text-3xl">Apoie e colabore para que<br /> mais gatinhos encontre uma familia</h1>
+            <h1 class="font-sf-new-republic pt-6 text-2xl font-medium text-gray-800  lg:text-3xl">Apoie e colabore para que<br /> mais gatinhos encontre uma familia</h1>
         </div>
 
         <div class="grid grid-cols-1 gap-3 lg:grid-cols-3 lg:gap-5 my-9">

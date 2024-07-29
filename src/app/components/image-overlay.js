@@ -5,9 +5,9 @@ const ImageOverlay = () => {
   return (
  
     
-<div className=" container mx-auto px-12 flex justify-center items-center " style={{height:"400px"}}>
+<div className=" container mx-auto px-12 flex justify-center items-center " style={{height:"500px"}}>
 
-<div className="container w-1/3"
+<div className="container w-2/3 relative left-28"
        >
         <h1 className="font-sf-new-republic flex ml-11 font-extrabold text-blue break-all max-w-xs pb-7" style={{fontSize: '36px'}}>
              Doe Amor, <br/>
@@ -27,11 +27,11 @@ const ImageOverlay = () => {
         </button>
       </div>
 
-      <div className="container w-1/2">
+      <div className="p-7">
         <Image 
           src="/cat.png"
-          width={1030}
-          height={1000}
+          width={1530}
+          height={1300}
           alt="Gato propaganda"
         />
       </div>

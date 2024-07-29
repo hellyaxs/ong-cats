@@ -69,7 +69,7 @@ export default function Home() {
        </header>
 
       
-    <main>
+    <main className="bg-princial bg-no-repeat bg-contain" >
     
     <ImageOverlay />
     <Sessao />
