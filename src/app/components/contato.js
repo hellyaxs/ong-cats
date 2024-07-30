@@ -15,20 +15,20 @@ export default function Contato() {
 
         <h3  className="w-1/2 mx-auto mt-5 font-sf-new-republic text-white text-4xl" >Fale conosco <br/> agora Mesmo</h3>
            
-           <div class="w-1/2 mx-auto mt-2">
+           <div class="xl:w-1/2 mx-auto mt-2">
                <input type="text" placeholder="Nome: " class="block w-full py-3 text-white placeholder-white bg-transparent  border border-gray-200 rounded-md pl-5 pr-11 rtl:pr-5 rtl:pl-11 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 dark:focus:border-blue-300 focus:ring-blue-300 focus:outline-none focus:ring focus:ring-opacity-40" />
            </div>
-           <div class="w-1/2 mx-auto mt-2">
+           <div class="xl:w-1/2 mx-auto mt-2">
                <input type="email" placeholder="E-mail:" class="block w-full py-3 text-white placeholder-white bg-transparent border border-gray-200 rounded-md pl-5 pr-11 rtl:pr-5 rtl:pl-11 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 dark:focus:border-blue-300 focus:ring-blue-300 focus:outline-none focus:ring focus:ring-opacity-40" />
            </div>
-           <div class="w-1/2 mx-auto mt-2">
+           <div class="xl:w-1/2 mx-auto mt-2">
                <input type="tel" placeholder="Celular:" class="block w-full py-3 text-white placeholder-white bg-transparent border border-gray-200 rounded-md pl-5 pr-11 rtl:pr-5 rtl:pl-11 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 dark:focus:border-blue-300 focus:ring-blue-300 focus:outline-none focus:ring focus:ring-opacity-40" />
            </div>
-           <div class="w-1/2 mx-auto mt-2">
+           <div class="xl:w-1/2 mx-auto mt-2">
                <input type="text" placeholder="Menssagem:" class="block w-full py-3 pb-16 text-white placeholder-white bg-transparent border border-gray-200 rounded-sm pl-5 pr-11 rtl:pr-5 rtl:pl-11 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 dark:focus:border-blue-300 focus:ring-blue-300 focus:outline-none focus:ring focus:ring-opacity-40" />
            </div>
 
-           <button class="flex w-1/2 mx-auto justify-center  px-10 py-4 my-7 items-center font-medium tracking-wide text-white transition-colors duration-300  bg-blue-900 rounded-md hover:bg-blue-500 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-80">
+           <button class="flex xl:w-1/2 mx-auto justify-center  px-10 py-4 my-7 items-center font-medium tracking-wide text-white transition-colors duration-300  bg-blue-900 rounded-md hover:bg-blue-500 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-80">
               <span class="mx-3">Enviar Menssagem </span>
             <svg width="14" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M4.21739 0.162988C3.20998 0.693556 2.8003 2.52704 3.39803 3.8501C3.78756 4.71647 4.73452 5.11943 5.65462 4.80378C6.49413 4.51499 6.82322 3.46729 6.54114 1.98975C6.37324 1.11667 6.05759 0.532371 5.55388 0.189853C5.19122 -0.0519252 4.65393 -0.0653572 4.21739 0.162988Z" fill="white"/>
@@ -42,7 +42,7 @@ export default function Contato() {
          </div>
   
       </div>
-            <div className="w-1/2 mx-auto bg-top bg-seta-contato" style={{backgroundPosition: "99% 9%"}}>
+            <div className="w-1/2 mx-auto bg-top bg-seta-contato invisible lg:visible" style={{backgroundPosition: "99% 9%"}}>
                 <Image className="mx-auto h-screen w-screen relative top-24 right-32 z-10"
                 src={caramelo}
                 width={700}
