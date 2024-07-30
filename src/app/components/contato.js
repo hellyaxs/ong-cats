@@ -5,17 +5,16 @@ export default function Contato() {
 
     return (
 
-        <section >
-        
-    <div className="flex bg-wave-contato h-screen bg-cover bg-center bg-no-repeat ">
+       
+    <section className="flex bg-wave-contato h-auto bg-cover bg-center bg-no-repeat mx-auto justify-start ">
 
-    <div className="w-1/2 relative top-20 justify-end items-center  mt-2 left-24">
+    <div className="w-full xl:w-1/2 xl:mx-0 relative xl:top-20 mx-14  justify-end items-center  mt-2 xl:left-24">
 
-        <div class="w-full my-16 relative top-80 sm:flex-row items-center justify-center">
+        <div class="w-full my-10 relative  top-80 sm:flex-row items-center justify-center">
 
-        <h3  className="w-1/2 mx-auto mt-5 font-sf-new-republic text-white text-4xl" >Fale conosco <br/> agora Mesmo</h3>
+        <h3  className="mx-auto my-5 font-sf-new-republic xl:w-1/2 text-white text-5xl" >Fale conosco <br/> agora Mesmo</h3>
            
-           <div class="xl:w-1/2 mx-auto mt-2">
+           <div class="xl:w-1/2 mx-auto w-72 mt-2">
                <input type="text" placeholder="Nome: " class="block w-full py-3 text-white placeholder-white bg-transparent  border border-gray-200 rounded-md pl-5 pr-11 rtl:pr-5 rtl:pl-11 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 dark:focus:border-blue-300 focus:ring-blue-300 focus:outline-none focus:ring focus:ring-opacity-40" />
            </div>
            <div class="xl:w-1/2 mx-auto mt-2">
@@ -53,11 +52,10 @@ export default function Contato() {
 
             
 
-    </div>
+    </section>
 
 
 
-</section>
         
     );
     

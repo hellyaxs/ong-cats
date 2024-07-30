@@ -19,7 +19,7 @@ export default function Parceiros() {
             </div>
         
 
-    <div class="py-8 text-center">
+    <div class="pt-8 text-center">
         
       
              <div class="max-w-5xl mx-auto px-9 xl:px-0">
