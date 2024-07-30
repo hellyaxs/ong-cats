@@ -24,9 +24,9 @@ export default function Depoimentos() {
                 </div>
             </div>
           
-          <div className="w-full justify-center  items-center pt-20 ">
-            <div class="flex mt-8 justify-center xl:justify-start">
-                <div className="text-center w-64 mx-9 justify-center items-center shadow-2xl shadow-rose-100 rounded-md px-2 ">
+          <div className="w-full pt-20 pl-16 xl:pl-0">
+            <div class="flex mt-8 justify-center relative xl:right-28 ">
+                <div className="text-center w-64 mx-auto justify-center items-center shadow-2xl shadow-rose-100 rounded-md px-2 ">
                     <div class="relative bottom-9 mx-auto h-16 w-16 rounded-full bg-rose-250 flex items-center justify-center">
                         <Image 
                         src={laura}
@@ -45,7 +45,7 @@ export default function Depoimentos() {
                 </div>
                 </div>
 
-                <div className="text-center w-60  justify-center items-center shadow-2xl rounded-md shadow-rose-100 px-2">
+                <div className="text-center w-60 invisible xl:visible justify-center relative right-24 items-center shadow-2xl rounded-md shadow-rose-100 px-2">
                
                 <div class="relative bottom-9 mx-auto h-16 w-16 rounded-full bg-rose-250 flex items-center justify-center">
                     <Image 

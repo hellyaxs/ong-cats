@@ -23,7 +23,7 @@ const ImageOverlay = () => {
 
         </button>
         </div>
-        <div className="relative w-1/2 h-full p-8 py-60 right-12">
+        <div className="relative w-1/2 h-full p-8 py-80  right-12">
         <Image 
           layout="fill"
           objectFit="cover" // Garante que a imagem cubra o espaço sem deformação

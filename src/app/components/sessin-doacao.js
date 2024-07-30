@@ -3,6 +3,7 @@ import image1 from '../../../public/images/cats/gato-1.png';
 import image2 from '../../../public/images/cats/gato-2.png';
 import image3 from '../../../public/images/cats/gato-3.png';
 import image4 from '../../../public/images/cats/gato-4.png';
+import doacao from '../../../public/images/cats/doacao.svg';
 import Image from "next/image";
 
 export default function Doacoes() {
@@ -10,13 +11,14 @@ export default function Doacoes() {
     return (
         <section >
              <div class="px-6 pt-8 text-center bg-gradiente-adocao">
+             
              <div class="max-w-3xl mx-auto">
              <h1 class="font-sf-new-republic text-3xl text-white lg:text-4xl">
                 Gatos para doação</h1>
 
-            <div className="flex mx-0 mt-5 mb-16">
+            <div className="flex flex-col sm:flex-row mx-0 mt-5 mb-16">
                 <select
-                class="mr-6  pl-2 pr-14 w-full rounded-lg bg-transparent border border-white text-white sm:text-sm"
+                class="mr-6  pl-2 pr-14 my-3 xl:my-0 w-full rounded-lg bg-transparent border border-white text-white sm:text-sm"
                 >
                 <option value="">Estado</option>
                 <option value="JM">John Mayer</option>
@@ -26,7 +28,7 @@ export default function Doacoes() {
                 
                 </select>
                 <select
-                class="mr-6  pl-2 pr-12 w-full rounded-lg bg-transparent border border-white text-white sm:text-sm"
+                class="mr-6  pl-2 pr-12 my-3 xl:my-0 w-full rounded-lg bg-transparent border border-white text-white sm:text-sm"
                 >
                 <option value="">Cidade</option>
                 <option value="JM">John Mayer</option>
@@ -36,7 +38,7 @@ export default function Doacoes() {
                 
                 </select>
                 <select
-                class="mr-6  pl-2 pr-12 w-full rounded-lg bg-transparent border border-white text-white sm:text-sm"
+                class="mr-6  pl-2 pr-12 my-3 xl:my-0 w-full rounded-lg bg-transparent border border-white text-white sm:text-sm"
                 >
                 <option value="">Genero</option>
                 <option value="JM">John Mayer</option>
