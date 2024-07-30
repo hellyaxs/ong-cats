@@ -15,7 +15,7 @@ export default function Timeline() {
         </p>
       </div>
 
-      <button class="relative w-56 lg:w-96 top-28 flex mx-auto items-center px-12 py-6 font-medium tracking-wide text-white transition-colors duration-300 transform bg-blue-350 rounded-md hover:bg-blue-500 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-80">
+      <button class="invisible lg:visible relative w-56 lg:w-96 top-28 flex mx-auto items-center px-12 py-6 font-medium tracking-wide text-white transition-colors duration-300 transform bg-blue-350 rounded-md hover:bg-blue-500 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-80">
         <span class="mx-3 xl:text-xl ">Como Tudo Começou</span>
         <svg
           width="20"
@@ -47,16 +47,16 @@ export default function Timeline() {
         </svg>
       </button>
 
-      <div class="flex w-full">
+      <div class="flex w-full h-96 xl:h-auto">
         <Image
-          className="w-1/2"
+          className="w-1 invisible lg:visible xl:w-1/2"
           src={"/images/cats/gato-5.png"}
           width={600}
           height={200}
           alt="gato branco e preto da time line"
         />
 
-        <div class="max-w-6xl mx-auto pt-56 px-4 md:px-6 ">
+        <div class="max-w-6xl mx-auto pt-56 px-4 md:px-6 relative bottom-96  xl:bottom-0">
           <div class="flex flex-col justify-center divide-y divide-slate-200 ">
             <div class="w-full max-w-3xl mx-auto">
               <div class="relative before:absolute before:inset-0 before:ml-5 before:-translate-x-px md:before:mx-auto md:before:translate-x-0 before:h-full before:w-0.5 before:bg-gradient-to-b before:from-transparent before:via-rose-250 before:to-transparent">

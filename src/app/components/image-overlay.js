@@ -5,7 +5,7 @@ const ImageOverlay = () => {
   return (
  
 <div className="container w-full mx-auto flex justify-center items-center">
-        <div>
+        <div className="">
         <h1 className="font-sf-new-republic ml-11 font-extrabold text-blue pb-7 text-4xl">
              Doe Amor, <br/>
              doe o seu lar!<br/>
@@ -23,7 +23,7 @@ const ImageOverlay = () => {
 
         </button>
         </div>
-        <div className="relative w-1/2 h-full p-8 py-80  right-12">
+        <div className="relative w-1 xl:w-1/2 h-full p-8 py-80 invisible xl:visible right-12">
         <Image 
           layout="fill"
           objectFit="cover" // Garante que a imagem cubra o espaço sem deformação
