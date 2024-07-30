@@ -48,7 +48,7 @@ docker:
 docker build -t app:latest . 
 ```
 
-## ☕ [[link para demo]](demokbrtec.netlify.app/)
+## ☕ [[link para demo]](https://demokbrtec.netlify.app/ "netlify link")
 
 <div style="height: 400px; overflow: scroll; border: 1px solid gray;">
   <img src="imagem.jpg" alt="Large Image" style="width: 100%; height: 100%; object-fit: cover;">
@@ -74,7 +74,7 @@ docker:
 docker compose up -d
 ```
 
-## [[☕ link para demo]](demokbrtec.netlify.app/)
+## [☕ link para demo](https://demokbrtec.netlify.app/)
 
 
 Adicione comandos de execução e exemplos que você acha que os usuários acharão úteis. Fornece uma referência de opções para pontos de bônus!
