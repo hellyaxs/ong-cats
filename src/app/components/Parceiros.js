@@ -12,7 +12,7 @@ export default function Parceiros() {
         <>
             <div className="h-20 w-full">
 
-            <Image className="relative w-full xl:bottom-56"
+            <Image className="relative w-full xl:bottom-80"
             width={500}
             height={200}
             src={linhaParceirso} alt="Gato"  />

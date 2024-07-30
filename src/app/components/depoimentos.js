@@ -6,7 +6,7 @@ import romulo from "../../../public/images/avatar/avatar-1.png";
 export default function Depoimentos() {
 
     return (
-        <section class="bg-white dark:bg-gray-900 ">
+        <section class="bg-white dark:bg-gray-900 xl:mb-16">
         
         <div class="grid md:grid-col-1 xl:grid-cols-2 ">
            
@@ -45,7 +45,7 @@ export default function Depoimentos() {
                 </div>
                 </div>
 
-                <div className="text-center w-60 invisible xl:visible justify-center relative right-24 items-center shadow-2xl rounded-md shadow-rose-100 px-2">
+                <div className="text-center w-60 invisible xl:visible justify-center relative right-44 items-center shadow-2xl rounded-md shadow-rose-100 px-2">
                
                 <div class="relative bottom-9 mx-auto h-16 w-16 rounded-full bg-rose-250 flex items-center justify-center">
                     <Image 
