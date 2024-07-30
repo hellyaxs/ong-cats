@@ -38,14 +38,14 @@ Linux, macOS Windows:
 git clone https://github.com/hellyaxs/projeto-KBRTEC.git && cd projeto-KBRTEC
 ```
 
-
 ```bash
 npm install
 ```
 
 docker:
+
 ```bash
-docker build -t . 
+docker build -t app:latest . 
 ```
 
 ## ☕ [[link para demo]](demokbrtec.netlify.app/)

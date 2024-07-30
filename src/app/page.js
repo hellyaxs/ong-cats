@@ -19,7 +19,7 @@ export default function Home() {
    <header className="flex flex-col items-center font-roboto">
    <div className="container mx-auto py-4">
           <nav className="flex justify-center items-center">
-            
+         <div className="md:w-full justify-start flex">  
           <Image src="icons/logo.svg" alt="Logo da Ong TinieBird Cats" width={60} height={60} />
             <div className="font-sf-new-republic font-extrabold mx-4 text-2xl">
             <p>Ong</p>
@@ -27,7 +27,8 @@ export default function Home() {
               <span className="text-blue-350 ">Bird</span> 
               <p> Cats</p>
             </div>
-            <div className="xl:flex items-center ml-48 sm:hidden  md:hidden">
+          </div> 
+            <div className="lg:flex items-center ml-48 sm:hidden  md:hidden">
               <ul className="flex ml-10 space-x-4 font-semibold">
                 <li><a href="#" className="hover:text-blue-350">Home</a></li>
                 <li><a href="#" className="hover:text-blue-350">
@@ -54,7 +55,7 @@ export default function Home() {
               </ul>
             </div>
            
-          <button class="flex ml-11 items-center px-4 py-2 font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-350 rounded-md hover:bg-blue-500 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-80">
+          <button className="lg:flex ml-11 items-center px-4 py-2 font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-350 rounded-md hover:bg-blue-500 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-80 sm:hidden md:hidden">
               <span class="mx-1">Quero adotar </span>
             <svg width="14" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M4.21739 0.162988C3.20998 0.693556 2.8003 2.52704 3.39803 3.8501C3.78756 4.71647 4.73452 5.11943 5.65462 4.80378C6.49413 4.51499 6.82322 3.46729 6.54114 1.98975C6.37324 1.11667 6.05759 0.532371 5.55388 0.189853C5.19122 -0.0519252 4.65393 -0.0653572 4.21739 0.162988Z" fill="white"/>
