@@ -3,8 +3,8 @@ import Image from "next/image";
 export default function Timeline() {
 
     return (    
-    <session>
-        <div class="px-3 py-20 mx-auto text-center">
+    <session >
+        <div class="px-3 py-20 mx-auto text-center ">
             <h3 class="font-sf-new-republic mb-4 font-medium leading-none tracking-tight text-gray-900 md:text-3xl lg:text-3xl dark:text-black">
                 Conheça a ONG TinieBird Cats</h3>
             <p class="font-sf-new-republic mb-6 text-xs text-gray-500 lg:text-xl sm:px-16 xl:px-64 dark:text-gray-400">

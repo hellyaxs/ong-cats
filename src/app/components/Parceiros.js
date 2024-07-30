@@ -22,7 +22,7 @@ export default function Parceiros() {
     <div class="py-8 text-center">
         
       
-             <div class="max-w-5xl mx-auto">
+             <div class="max-w-5xl mx-auto px-9 xl:px-0">
              <h2 class="font-sf-new-republic text-xl font-medium text-gray-800  lg:text-3xl">
                 Nosso Parceiros</h2>
 

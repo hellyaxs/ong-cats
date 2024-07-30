@@ -5,7 +5,7 @@ export default function Contato() {
 
     return (
 
-        <session className="">
+        <section >
         
     <div className="flex bg-wave-contato h-screen bg-cover bg-center bg-no-repeat ">
 
@@ -57,7 +57,7 @@ export default function Contato() {
 
 
 
-</session>
+</section>
         
     );
     

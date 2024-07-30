@@ -69,7 +69,7 @@ export default function Perguntas() {
             </div>
         </div>
 
-        <div className="overflow-hidden top-2 w-1/3">
+        <div className="overflow-hidden top-2 w-1/3 ">
                <svg 
                 width="540" height="614" viewBox="0 0 540 654" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M86.2497 284.476C81.8816 323.456 126.216 370.608 175.493 379.169C207.724 384.828 237.532 365.633 246.336 333.299C254.347 303.783 230.851 274.132 183.279 253.585C155.144 241.478 132.382 239.171 112.874 246.901C98.9654 252.561 88.1872 267.615 86.2497 284.476Z" fill="white"/>

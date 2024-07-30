@@ -6,7 +6,7 @@ import romulo from "../../../public/images/avatar/avatar-1.png";
 export default function Depoimentos() {
 
     return (
-        <section class="bg-white dark:bg-gray-900">
+        <section class="bg-white dark:bg-gray-900 ">
         
         <div class="grid md:grid-col-1 xl:grid-cols-2 ">
            

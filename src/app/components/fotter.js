@@ -70,9 +70,9 @@ export default function Fotter() {
         <h5 class="text-md font-semibold text-white capitalize lg:text-xl dark:text-white">Newsletter</h5>
         <p className="text-white">Quer receber nossas dicas e novidades? Cadastre-se agora</p>      
         
-            <div class="flex flex-col mt-4 sm:flex-row sm:items-center sm:justify-center">
+            <div class="flex flex-col mt-4 sm:flex-row sm:items-center w-2/3 mx-auto">
            
-            <div class="w-1/2 relative flex items-center mt-2">
+            <div class="w-full relative flex justify-center  items-center mt-2">
                 <button class="absolute right-0 focus:outline-none rtl:left-0 rtl:right-auto">
                 <svg class="w-6 h-6 mr-2 text-white dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="34" height="34" fill="none" viewBox="0 0 24 24">
                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 12H5m14 0-4 4m4-4-4-4"/>
@@ -85,9 +85,9 @@ export default function Fotter() {
     </div>
 
       <div className="mx-auto bg-white">
-          <nav className="flex justify-center items-center">
-            <Image className="relative bottom-10"src="/icons/logo.svg" alt="Logo" width={75} height={75} />
-            <div className="font-sf-new-republic font-extrabold mx-4" style={{fontSize: '22px'}}>
+          <nav className="flex mx-auto justify-center relative left-24 lg:left-0 items-center w-1/2  ">
+            <Image className="relative bottom-10  "src="/icons/logo.svg" alt="Logo" width={75} height={75} />
+            <div className="font-sf-new-republic font-extrabold mx-2 text-xl" >
                 <p>
                 Ong 
                 <span className="text-rose-250 ml-1">Tinie</span>
@@ -96,7 +96,7 @@ export default function Fotter() {
                 </p>
                
             </div>
-            <div className="font-roboto flex items-center ml-48">
+            <div className="font-roboto flex items-center ml-40 invisible lg:visible ">
                 <ul className="flex ml-10 space-x-4 font-medium">
                     <li><a href="#" className="hover:text-blue-350">Home</a></li>
                     <li><a href="#" className="hover:text-blue-350">Sobre</a></li>
