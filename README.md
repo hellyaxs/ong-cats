@@ -48,7 +48,7 @@ docker:
 docker build -t app:latest . 
 ```
 
-## ☕ [[link para demo]](https://demokbrtec.netlify.app/ "netlify link")
+## ☕ [link para demo](https://demokbrtec.netlify.app/ "netlify link")
 
 <div style="height: 400px; overflow: scroll; border: 1px solid gray;">
   <img src="imagem.jpg" alt="Large Image" style="width: 100%; height: 100%; object-fit: cover;">

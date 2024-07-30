@@ -9,9 +9,9 @@ export default function Contato() {
         
     <div className="flex bg-wave-contato h-screen bg-cover bg-center bg-no-repeat ">
 
-    <div className="w-1/2 relative top-56 mt-2 left-24">
+    <div className="w-1/2 relative top-20 justify-end items-center  mt-2 left-24">
 
-        <div class="w-full my-16 sm:flex-row sm:items-center sm:justify-center">
+        <div class="w-full my-16 relative top-80 sm:flex-row items-center justify-center">
 
         <h3  className="w-1/2 mx-auto mt-5 font-sf-new-republic text-white text-4xl" >Fale conosco <br/> agora Mesmo</h3>
            
