@@ -10,14 +10,14 @@ export default function Depoimentos() {
         
         <div class="grid md:grid-col-1 xl:grid-cols-2 ">
            
-        <div class="justify-center flex w-full  items-center text-center xl:text-start xl:mr-4">
+        <div class="justify-center flex items-center text-center xl:text-start xl:mr-4">
             <div class="relative top-12 right-11 lg:right-32 xl:right-0 xl:top-0 xl:bottom-12 overflow-hidden">
             <Image src="/icons/quote.svg" width={300} height={300} alt="Quote" />
             </div>
-            <div className="my-auto h-full flex flex-col justify-center ">
+            <div className="my-auto flex flex-col relative right-44 xl:right-0 ">
                 <h1 class="font-sf-new-republic text-2xl font-semibold text-gray-800 capitalize lg:text-3xl dark:text-white">Depoimentos</h1>
 
-                <p class="max-w-2xl mt-4 mb-0 text-gray-500 dark:text-gray-300 mx-auto ">
+                <p class="max-w-xl mt-4 mb-0 text-gray-500 dark:text-gray-300 mx-auto ">
                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                  Donec pharetra tellus ut erat consequat auctor integer nulla nunc.
                 </p>

@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <>
       <header className="container mx-auto py-4 flex flex-col font-roboto">
-        <nav className="flex justify-center items-center ">
+        <nav className="flex justify-center items-center">
           <div className="w-full xl:justify-center flex relative left-36 xl:left-0">
             <Image
               src="icons/logo.svg"
@@ -125,7 +125,9 @@ export default function Home() {
               </svg>
             </button>
           </div>
-          <div class="flex lg:hidden">
+
+          {/* meu de hamburger */}
+          <div class="flex lg:hidden relative right-40">
             <button
               x-cloak
               type="button"

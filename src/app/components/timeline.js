@@ -93,7 +93,7 @@ export default function Timeline() {
                   </div>
                   <div class="w-[calc(100%-2.5rem)] md:w-[calc(50%-2.5rem)]  px-4">
                     <time class="text-3xl font-bold text-indigo-900">2016</time>
-                    <div class="flex w-[calc(100%-2.5rem)] md:w-[calc(58%-8rem)] text-slate-900 font-bold bg-blue-500">
+                    <div class="flex w-[calc(100%-2.5rem)] md:w-[calc(58%-8rem)] text-slate-900 font-bold ">
                       <svg
                         name="cat-blue-timeline"
                         width="31"
@@ -188,7 +188,7 @@ export default function Timeline() {
                   </div>
                   <div class="w-[calc(100%-2.5rem)] md:w-[calc(50%-2.5rem)]  px-4">
                     <time class="text-3xl font-bold text-indigo-900">2016</time>
-                    <div class="flex w-[calc(100%-2.5rem)] md:w-[calc(58%-8rem)] text-slate-900 font-bold bg-blue-500">
+                    <div class="flex w-[calc(100%-2.5rem)] md:w-[calc(58%-8rem)] text-slate-900 font-bold">
                       <svg
                         width="31"
                         height="42"
@@ -252,7 +252,7 @@ export default function Timeline() {
             </div>
           </div>
 
-          <button class="flex ml-11 my-12 items-center px-24 py-6 font-medium tracking-wide text-white transition-colors duration-300 transform bg-blue-350 rounded-sm hover:bg-blue-500 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-80">
+          <button class="flex ml-3 xl:ml-11 my-12 items-center px-24 py-6 font-medium tracking-wide text-white transition-colors duration-300 transform bg-blue-350 rounded-sm hover:bg-blue-500 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-80">
             <span class="mx-1">Saiba mais </span>
             <svg
               width="14"
