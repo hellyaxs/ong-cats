@@ -8,7 +8,7 @@ import Image from "next/image";
 export default function Doacoes() {
 
     return (
-        <session >
+        <section >
              <div class="px-6 pt-8 text-center bg-gradiente-adocao">
              <div class="max-w-3xl mx-auto">
              <h1 class="font-sf-new-republic text-3xl text-white lg:text-4xl">
@@ -94,6 +94,6 @@ export default function Doacoes() {
         </div>
 
        
-        </session>
+        </section>
     );
 }
